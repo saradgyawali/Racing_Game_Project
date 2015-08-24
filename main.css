@@ -1,1 +1,110 @@
-/* Style Sheet */
+.first-div {
+	height:200px;
+	width:1200px;
+	top:50px;
+	position: relative;
+	background-color: lightgrey;
+	border-radius: 20px 20px 0px 0px ;
+    background: -webkit-radial-gradient(circle, green 1%, transparent 99%)
+}
+
+.second-div {
+	height:200px;
+	width:1200px;
+	background-color: lightgreen;
+	position:relative;
+	top:50px;
+	border-radius: 0px 0px 20px 20px;
+	background: -webkit-radial-gradient(circle, yellow 1%, transparent 99%)
+}
+
+.title {
+	font-family:Verdana;
+	background-color: grey;
+	height:50px;
+	width:400px;
+	font-size:40px;
+	text-align:center;
+	margin: 10px 400px 10px 400px;
+	border-radius:25px 0 25px 0;
+	animation:color-change 1s infinite;
+}
+
+@keyframes color-change { 0%{color:red;} 100%{color:green;} 80%{color:yellow;} 90%{color:blue;} 
+
+
+}
+
+#car1 {
+	height:58px;
+	width:120px;
+	position: relative;
+	top:65px;
+	left:0px;
+}
+
+#car2 {
+	height:60px;
+	width:120px;
+	position: relative;
+	top:65px;
+	left:0px;
+}
+
+#start_game {
+	height:28px;
+	border-radius: 14px;
+	position:relative;
+	left:425px;
+}
+
+#instruction {
+	height:28px;
+	border-radius:14px;
+	position:relative;
+	left:455px;
+}
+
+#reset {
+	height:28px;
+	border-radius:14px;
+	position:relative;
+	left:485px;
+}
+
+.play_key {
+	height:40px;
+	width:160px;
+	border-radius:20px;
+	background-color:pink;
+	margin-top:5px;
+	margin-left:589px;
+	position:relative;
+	top:-33px;
+	text-align:center;
+}
+
+hr {
+	height:5px;
+	background-color: red;
+}
+.inside {
+	position: relative;
+	background-color:white;
+	width:1192px;
+	border:4px dashed black;
+	top:98px;
+}
+/*.go {
+	background-color: skyblue;
+	height:20px;
+	width:50px;
+	text-align: center;
+	border-radius:10px;
+	position:relative;
+	top:-25px;
+}*/
+
+.press {
+
+}

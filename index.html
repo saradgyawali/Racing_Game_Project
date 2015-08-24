@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rrrracing Game</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--CSS-->
   <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- Hey, where's the jquery? -->
+
+  <!--jQuery-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!--JavaScript-->
   <script type="text/javascript" src="app.js"></script>
+
 </head>
-<body>
-  <!-- HTML Body -->
-  <h1>Rrrracing Game</h1>
-  <img src="http://www.cs.utah.edu/~gk/atwork/img/hevequip2.gif" alt="under construction"></img>
-  <!-- Game Board Here -->
-  <!-- Reset button -->
+
+<body background="background3.jpeg">
+        <!-- HEADING -->
+  <div class="title">Need For Speed</div><hr>
+
+  <button id="start_game">Start Game</button>
+  <button id="instruction">Playing Instructions</button>
+  <button id="reset">Restart Game</button>
+    <div class="play_key">Orange Car(Press "z")<br>Red Car(Press "p")
+    </div>
+    <p></p>
+
+<!--  <div class="play_key">GO!!!</div>
+ -->  <!-- Race Track -->
+  <div class="left-side first-div player1">
+        <div class="inside"></div>
+
+      <img id="car1" src="car1.png">
+  </div>
+
+  <div class="right-side second-div player2">
+    <div class="inside"></div>
+      <img id="car2" src="car2.png">
+  </div>
 </body>
 </html>
